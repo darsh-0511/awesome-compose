@@ -4,7 +4,7 @@
 
 > A curated list of Docker Compose samples.
 
-These samples provide a starting point for how to integrate different services using a Compose file and to manage their deployment with Docker Compose.
+These samples provide a starting point on how to integrate different services using a Compose file and to manage their deployment with Docker Compose.
 
 > **Note**
 > The following samples are intended for use in local development environments such as project setups, tinkering with software stacks, etc. These samples must not be deployed in production environments.
@@ -96,11 +96,13 @@ deploying samples of containerized applications with Docker Compose.
 
 The root directory of each sample contains the `compose.yaml` which
 describes the configuration of service components. All samples can be run in
-a local environment by going into the root directory of each one and executing:
+local environment by going into the root directory of each one and executing:
 
-```console
+```run below command in terminal or console to start all services 
 docker compose up -d
 ```
+
+this command starts to run docker containers in background that is in detach mode.
 
 Check the `README.md` of each sample to get more details on the structure and
 what is the expected output.
@@ -112,7 +114,7 @@ docker compose down
 
 ### Quickstart guides
 
-In addition to all the ready to run Compose samples listed above the folder [official-documentation-samples](official-documentation-samples/README.md) contains quickstart guides. Each of these step by step guides explain which files need to be created to build and run a Docker Compose application.
+In addition to all the ready to run Compose samples listed above the folder [official-documentation-samples](official-documentation-samples/README.md) it also contains quickstart guides. Each of these step by step guides explain which files need to be created to build and run a Docker Compose application.
 
 <!--lint disable awesome-toc-->
 ## Contribute
